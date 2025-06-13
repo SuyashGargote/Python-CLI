@@ -1,0 +1,21 @@
+# 🔐 Sensitive files
+key.key
+vault_data.json
+
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+
+# 📦 Package distribution
+*.egg-info/
+dist/
+build/
+
+# 📝 Log files
+*.log
+
+# 💻 OS files
+.DS_Store
+Thumbs.db
