@@ -19,13 +19,13 @@ A secure command-line password manager built in Python. It uses **Fernet symmetr
 ## 📁 Project Structure
 
 password_vault/
-├── vault.py # Main CLI interface
-├── encryption.py # Fernet key generation + encrypt/decrypt
-├── data_handler.py # Load/save JSON vault data
-├── auth.py # Master password verification
-├── key.key # Auto-generated encryption key (do not share!)
-├── vault_data.json # Auto-generated encrypted password storage
-└── README.md # This file
+├── vault.py            ← Main CLI program
+├── encryption.py       ← Encryption/decryption & key handling
+├── data_handler.py     ← Load/save data from JSON
+├── auth.py             ← Master password verification
+├── key.key             ← (Auto-generated) encryption key (keep secret)
+├── vault_data.json     ← (Auto-generated) stores encrypted passwords
+└── README.md           ← How to use the tool
 
 
 ---
